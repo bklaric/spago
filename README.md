@@ -103,7 +103,7 @@ Let's take a look at the two [Dhall][dhall] configuration files that `spago` req
   available to your project (that is, any package you might want to import).  
   In practical terms, it pulls in the [official package-set][package-sets] as a base,
   and you are then able to add any package that might not be in the package set,
-  or override esisting ones.
+  or override existing ones.
 - `spago.dhall`: this is your project configuration. It includes the above package-set,
   the list of your dependencies, and any other project-wide setting that `spago` will
   use for builds.
